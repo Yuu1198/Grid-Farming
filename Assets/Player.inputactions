@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "name": "Player",
+    "maps": [
+        {
+            "name": "World Building",
+            "id": "d6f57d3e-f1a8-48f0-9b4c-2e3c95570926",
+            "actions": [
+                {
+                    "name": "Tiles",
+                    "type": "Button",
+                    "id": "6fe31bd2-0b86-4455-9713-5c5831585a55",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "57d96cda-c198-4bee-b979-16e8a4f93581",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Tiles",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

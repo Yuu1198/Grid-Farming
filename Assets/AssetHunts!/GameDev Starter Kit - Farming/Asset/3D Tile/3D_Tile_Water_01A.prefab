@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3897457338272953698}
   - component: {fileID: 124226508401195719}
   - component: {fileID: 2764541736903527949}
+  - component: {fileID: 3631456600941193350}
   m_Layer: 0
   m_Name: 3D_Tile_Water_01A
   m_TagString: Untagged
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3631456600941193350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421791977411964888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.0000002, y: 0.9999998, z: 2.0000002}
+  m_Center: {x: -0.00000011920929, y: 0.4999999, z: 0.00000011920929}

@@ -16,6 +16,8 @@ public class GridSystem : MonoBehaviour
     private Vector2Int currentGridPosition;
     private bool validPreviewPosition = false;
 
+    public bool canPlaceTiles = true;
+
 
     private void Start()
     {
@@ -24,13 +26,33 @@ public class GridSystem : MonoBehaviour
 
     private void Update()
     {
-        UpdatePreviewPosition();
-
-        // Place Object with mouse click
-        if (Input.GetMouseButtonDown(0) && validPreviewPosition)
+        if (canPlaceTiles)
         {
-            PlaceObject();
+            UpdatePreviewPosition();
+
+            // Place Object with mouse click
+            if (Input.GetMouseButtonDown(0) && validPreviewPosition)
+            {
+                PlaceObject();
+            }
         }
+    }
+
+    public void ActivatePlacement()
+    {
+        CreatePreviewObject();
+        canPlaceTiles = true;
+    }
+
+    public void DeactivatePlacement()
+    {
+        canPlaceTiles = false;
+        Destroy(previewObject);
+    }
+
+    public void SetObjectToPlace(GameObject input)
+    {
+        objectToPlace = input;
     }
 
     /// <summary>

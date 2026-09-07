@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6888892280356274439}
   - component: {fileID: 7509075710646816418}
   - component: {fileID: 5751501186030041704}
+  - component: {fileID: 2226398335910156040}
   m_Layer: 0
   m_Name: 3D_Tile_Ground_01A
   m_TagString: Untagged
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2226398335910156040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111828532640439229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 0.9999998, z: 2}
+  m_Center: {x: -0.000000059604645, y: 0.4999999, z: 0.000000059604645}
